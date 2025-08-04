@@ -1,0 +1,11 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly declare text files to be normalized to LF
+*.ex text eol=lf
+*.exs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+mix.* text eol=lf
+.formatter.exs text eol=lf
+.gitignore text eol=lf

@@ -1,0 +1,31 @@
+{    
+    "phone":{
+        "type": "tel",
+        "label": "Phone number",
+        "pattern": "+359 [0-9]{8}" 
+    },
+    "birthdate": {
+        "type": "date",
+        "label": "Date of birth",
+        "hint": "We will send you a gift!"
+    },
+    "gender": {
+        "type": "select",
+        "options": [[0, "Male"], [1, "Female"], [9, "Do not specify"]],
+        "placeholder": "Please select"
+    },
+    
+    "address": {
+        "type": "schema",
+        "name": "asd",
+        "schema": {
+            "zip": {
+                "type": "text",
+                "pattern": "+359 [0-9]{8}"
+            },
+            "street": {
+                "type": "textarea"
+            }
+        }
+    }
+}
